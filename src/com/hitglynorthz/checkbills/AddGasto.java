@@ -55,7 +55,7 @@ public class AddGasto extends Activity {
 	// ESCRIBIR GASTOS
 	    private void escribirGastos() {
 	    	//Abrimos la base de datos
-	    	GastosSQLite usdbh = new GastosSQLite(this, "DBGastos", null, 1);
+	    	GastosSQLite usdbh = new GastosSQLite(this, "DBCheckBills", null, 1);
 	    	SQLiteDatabase db = usdbh.getWritableDatabase();
 	    	// leer del editText
 	    	final EditText nomGasto = (EditText)findViewById(R.id.NomGasto);

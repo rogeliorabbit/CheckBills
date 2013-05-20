@@ -57,7 +57,7 @@ public class AddIngreso extends Activity {
 	// ESCRIBIR INGRESOS
     private void escribirIngreso() {
     	//Abrimos la base de datos
-    	IngresosSQLite usdbh = new IngresosSQLite(this, "DBIngresos", null, 1);
+    	IngresosSQLite usdbh = new IngresosSQLite(this, "DBCheckBills", null, 1);
     	SQLiteDatabase db = usdbh.getWritableDatabase();
     	// leer del editText
     	final EditText nomIngreso = (EditText)findViewById(R.id.NomIngreso);
