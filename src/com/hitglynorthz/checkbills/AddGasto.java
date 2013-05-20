@@ -66,7 +66,7 @@ public class AddGasto extends Activity {
 	        //Si hemos abierto correctamente la base de datos
 	        if(db != null)
 	        {
-	        	//Insertamos los datos en la tabla Usuarios
+	        	//Insertamos los datos en la tabla Gastos
                 db.execSQL("INSERT INTO Gastos (codigo, nombre) " + "VALUES (" + CantGasto + ", '" + NomGasto +"')");
                 Toast.makeText(this, "Gasto " + NomGasto + " introducido", Toast.LENGTH_SHORT).show();
 	 

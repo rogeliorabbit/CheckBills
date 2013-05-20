@@ -68,7 +68,7 @@ public class AddIngreso extends Activity {
         //Si hemos abierto correctamente la base de datos
         if(db != null)
         {
-        	//Insertamos los datos en la tabla Usuarios
+        	//Insertamos los datos en la tabla Ingresos
             db.execSQL("INSERT INTO Ingresos (codigo, nombre) " + "VALUES (" + CantIngreso + ", '" + NomIngreso +"')");
             Toast.makeText(this, "Ingreso " + NomIngreso + " introducido", Toast.LENGTH_SHORT).show();
  
