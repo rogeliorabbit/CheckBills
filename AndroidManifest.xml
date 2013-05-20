@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hitglynorthz.checkbills"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hitglynorthz.checkbills.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Gastos" android:label="Gastos"></activity>
+        <activity android:label="Ingresos" android:name="Ingresos"></activity>
+        <activity android:label="AddIngreso" android:name="AddIngreso"></activity>
+        <activity android:label="AddGasto" android:name="AddGasto"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckBills</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="share">Compartir</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+    
+    <string name="addgasto">Añadir Gasto</string>
+    <string name="addingreso">Añadir Ingreso</string>
+
+</resources>

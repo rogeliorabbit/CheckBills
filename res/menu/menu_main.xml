@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/Settings" android:icon="@android:drawable/ic_menu_preferences" android:title="@string/action_settings"></item>
+	<item android:id="@+id/Share" android:icon="@android:drawable/ic_menu_share" android:title="@string/share" android:showAsAction="ifRoom|withText"></item>
+    <item android:id="@+id/About" android:icon="@android:drawable/ic_menu_info_details" android:title="@string/about"></item>
+    <item android:id="@+id/Salir" android:title="@string/exit" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+
+</menu>
